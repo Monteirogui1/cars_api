@@ -15,7 +15,7 @@ Este projeto é uma API desenvolvida com Django REST framework para gerenciar ma
 
       ```bash
       git clone https://github.com/Monteirogui1/cars_api.git
-      cd cars-api
+      cd cars_api
 
 **2. Crie um ambiente virtual e ative-o**:</br>
 
