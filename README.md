@@ -41,8 +41,18 @@ Este projeto é uma API desenvolvida com Django REST framework para gerenciar ma
       api/v1/type/: CRUD para modelos de carros.</br>
       api/v1/cars/: CRUD para carros.</br>
       api/v1/reviews/: CRUD para reviews de carros.</br>
+      api/v1/authentication/token/: CRUD para gerar o Token.</br>
 
 
 **Autenticação**</br>
 A API utiliza JWT para autenticação. Para acessar os endpoints protegidos, é necessário incluir o token JWT no header das requisições:</br>
       Authorization: Bearer <seu_token_jwt></br>
+
+**Como pegar o TOKEN:**</br> 
+Crie uma conta no painel do admin, passe login e senha no endpoint "api/v1/authentication/token/"
+**Exemplo:**
+```
+{
+    "username": "admin",
+    "password": "admin321"
+}
