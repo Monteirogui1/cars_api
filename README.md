@@ -49,7 +49,7 @@ A API utiliza JWT para autenticação. Para acessar os endpoints protegidos, é 
       Authorization: Bearer <seu_token_jwt></br>
 
 **Como pegar o TOKEN:**</br> 
-Crie uma conta no painel do admin, passe login e senha no endpoint "api/v1/authentication/token/"
+Crie uma conta no painel do admin, passe login e senha no endpoint "api/v1/authentication/token/"</br> 
 **Exemplo:**
 ```
 {
